@@ -11,10 +11,12 @@ function App() {
     <>
     <img src={img}/>
     <h1> Welcome User</h1>
-      
+
+      <label htmlFor="myText">Name</label>&nbsp;&nbsp;&nbsp;
       <input type="text" id="myText" value=""></input>
-      <br /> 
       <br />
+      <br />
+      <label htmlFor="myText">Password</label>&nbsp;&nbsp;&nbsp;
       <input type="text" id="myText" value=""></input>
       <br />
       <br />
